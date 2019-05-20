@@ -1,0 +1,158 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+	box-sizing: inherit; 
+	border: none;
+	font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  background: #425062;
+  font-family: "Orbitron";
+  font-size: 25px;
+	color: white;
+	outline: none;	
+
+}
+
+button:hover {
+  background: #727B85;
+  color: #3A4655;
+}
+
+button:active {
+
+	box-shadow: 0 1px .666;
+	background: #727B85;
+  transform: translateY(4px);
+}
+
+body {
+  display: flex;
+  justify-items: center;
+  color: white;
+}
+
+.container {
+	padding: 5px;
+	margin: 2rem auto;
+  background-color: #3A4655;
+  display: grid;
+	width: 300px;
+	height: 500px;
+  grid-gap: 1px;
+  grid-template-areas:
+    "display display display display"
+    "cdisplay cdisplay cdisplay cdisplay"
+    "clear clear divide multiply"
+    "seven eight nine minus"
+    "four five six plus"
+    "one two three equal"
+    "zero zero dot equal";
+}
+
+.ac {
+  grid-area: display;
+	color: #727B85;
+	display: grid;
+	align-items: center;
+  text-align: right;
+  background: #3A4655;
+  border: none;
+	font-size: 25px;
+	border-bottom: 1px dashed #727B85;
+	padding: 0 12px;
+}
+
+.cdisplay {
+	grid-area: cdisplay;
+	padding: 0 12px;
+	color: white;
+	display: grid;
+	align-items: center;
+  text-align: right;
+  background: #3A4655;
+  border: none;
+	font-size: 25px;
+}
+
+.clear {
+  grid-area: clear;
+	background: #404D5E;
+	color: red;
+}
+
+.divide {
+	grid-area: divide;
+	background: #404D5E;
+}
+
+.multiply {
+	grid-area: multiply;
+	background: #404D5E;
+}
+
+.plus {
+	grid-area: plus;
+	background: #404D5E;
+}
+
+.minus {
+	grid-area: minus;
+	background: #404D5E;
+}
+
+.seven {
+  grid-area: seven;
+}
+
+.eight {
+  grid-area: eight;
+}
+
+.nine {
+  grid-area: nine;
+}
+
+.four {
+  grid-area: four;
+}
+
+.five {
+  grid-area: five;
+}
+
+.three {
+  grid-area: three;
+}
+
+.two {
+  grid-area: two;
+}
+
+.one {
+  grid-area: one;
+}
+
+.dot {
+  grid-area: dot;
+}
+
+.zero {
+  grid-area: zero;
+}
+
+.equal {
+	grid-area: equal;
+	background: #404D5E;
+}
+
+.six {
+  grid-area: six;
+}
+
+span {
+  vertical-align: middle;
+}

@@ -1,0 +1,145 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  background: #FAFBFD;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+
+.sideMenu{
+  background: #FFF;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 60px 1fr;
+  box-shadow: 0px 2px 5px 0 rgba(224, 227, 231, 0.7);
+}
+
+.mainContainer{
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-rows: 60px 1fr;
+}
+
+.topNav{
+  background: #FFF;
+  display: grid;
+  padding-left: 20px;
+  align-items: center;
+  grid-template-columns: 300px 1fr;
+  box-shadow: 0px 2px 5px 0 rgba(224, 227, 231, 0.7);
+}
+
+.logo{
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid #FAFBFD;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.list{
+  
+}
+
+.list li{
+  padding: 20px;
+}
+
+.list li:hover{
+  background: #FAFBFD;
+}
+
+.rightmenu{
+  justify-self: right;
+}
+
+.bodyContent{
+  padding: 20px;
+}
+
+.rightmenu ul {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, 100px);
+}
+
+.rightmenu li img{
+  width: 50px;
+  height: 50px;
+}
+
+.seactionOne{
+  display: grid;
+  grid-gap: 20px;
+}
+
+.seactionOne .header{
+  display: grid;
+}
+
+.header h4{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.header small{
+  font-size: 12px;
+}
+
+.row1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+
+}
+
+.row2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.one{
+  display: grid;
+  grid-template-rows: auto 35px auto;
+  grid-gap: 10px;
+}
+
+.card{
+  background: #FFF;
+  box-shadow: 0px 2px 5px 0 rgba(224, 227, 231, 0.7);
+  height: 200px;
+  width: 200px;
+}
+
+input[type=text]{
+  outline: none;
+  padding: 0 12px;
+  border: 1px solid #DADCE3;
+  border-radius: 3px;
+}
+
+input:focus{
+  box-shadow: 0px 2px 5px 0 rgba(224, 227, 231, 0.7);
+}
+
+.progress{
+
+}
+.gray{
+  width: 100%;
+  background: gray;
+  height: 10px;
+}
+.green{
+  width: 50%;
+  background: green;
+  height: 10px;
+}
